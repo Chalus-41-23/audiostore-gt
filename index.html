@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AudioStore GT</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0b0b0b;
+      color: #f2f2f2;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-weight: 300;
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #222;
+      padding-bottom: 0.5rem;
+      color: #f2f2f2;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .product {
+      background-color: #111;
+      padding: 1.5rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.02);
+    }
+
+    .product img {
+      max-width: 100%;
+      height: 180px;
+      object-fit: contain;
+      margin-bottom: 1rem;
+    }
+
+    .product h3 {
+      margin: 0.5rem 0;
+      font-weight: 500;
+    }
+
+    .product p {
+      color: #999;
+      font-weight: 300;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #000;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 16px;
+      text-decoration: none;
+      font-size: 24px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      z-index: 100;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AudioStore GT</h1>
+    <p>Diseño futurista. Calidad de lujo. Precio accesible.</p>
+  </header>
+
+  <div class="container">
+    <div class="product-section">
+      <h2>AirPods</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/250x180" alt="AirPods 2da Gen" />
+          <h3>AirPods 2da Generación (AAA)</h3>
+          <p>Q120.00</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/250x180" alt="AirPods 3ra Gen" />
+          <h3>AirPods 3ra Generación (AAA)</h3>
+          <p>Q160.00</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/250x180" alt="AirPods 4ta Gen" />
+          <h3>AirPods 4ta Generación (AAA)</h3>
+          <p>Q190.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-section">
+      <h2>Cargadores</h2>
+      <div class="products">
+        <div class="product">
+          <img src="https://via.placeholder.com/250x180" alt="Cargador CC" />
+          <h3>Cargador Tipo CC</h3>
+          <p>Q25.00</p>
+        </div>
+        <div class="product">
+          <img src="https://via.placeholder.com/250x180" alt="Cargador CL" />
+          <h3>Cargador Tipo CL</h3>
+          <p>Q25.00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-section">
+      <h2>Próximamente</h2>
+      <p>Estamos trabajando en nuevos productos que elevarán tu experiencia auditiva. 🚀</p>
+    </div>
+  </div>
+
+  <a class="whatsapp" href="https://wa.me/50236821622" target="_blank">💬</a>
+
+  <footer>
+    <p>&copy; 2025 AudioStore GT | Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
